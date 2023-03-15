@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#imageContainer {
+  width: 60%;
+  height: 350px;
+  background-color: rgb(200, 201, 201);
+  border: 1px solid gray;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  margin: 1.5rem auto;
+}
+
+#uploadBtn {
+  width: 150px;
+  padding: 0.9rem;
+  border-radius: 12px;
+  background-color: rgb(18, 99, 228);
+  color: #fff;
+  border: none;
+  display: block;
+  margin: auto;
+  cursor: pointer;
+  outline: none;
+}
+
+#fileInput {
+  display: none;
+}
